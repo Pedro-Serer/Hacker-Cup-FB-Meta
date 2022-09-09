@@ -14,8 +14,6 @@
     }
     
     /*Testes*/
-    echo teste_1("O") . "\n";
-    echo teste_1("XFO") . "\n";
-    echo teste_1("FFOFF") . "\n";
-    echo teste_1("FXXFXFOOXF") . "\n";
-    echo teste_1("XFOFXFOFXFOFX");
+	$strings = ["O", "XFO", "FFOFF", "FXXFXFOOXF", "XFOFXFOFXFOFX"];
+	
+	foreach ($strings as $index) echo teste_1($index) . "\n";
